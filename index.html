@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather App" />
+    <meta name="keywords" content="weather,cloudy,sunny" />
+    <meta name="Author" content="Hasanov Arif" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cousine&family=DM+Sans:opsz@9..40&family=Doppio+One&family=Graduate&family=Inter&family=League+Gothic&family=Montserrat&family=MuseoModerno&family=Orbitron&family=Outfit&family=Plus+Jakarta+Sans:ital@0;1&family=Poppins&family=Racing+Sans+One&family=Roboto&family=Rufina&family=Sanchez&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section class="container">
+     <div class="search-country">
+      <input class="country-name" placeholder="Write city name" type="text">
+      <button class="add-button">Add</button>
+     </div>
+      <div class="top-weather">
+        <div class="degree-weather">
+          <img class="cloud" src="./img/Vector.png" alt="" />
+          <h1>
+            <span class="degree-number">25</span> <img class="degree" src="./img/degree.png" alt="" />
+          </h1>
+        </div>
+        <div class="bottom-weather">
+          <h2 class="situation-weather">Cloudy</h2>
+          <p class="country-city">California, Los Angeles</p>
+          <p class="current-time">21 Oct 2019</p>
+          <div class="information-time">
+            <p>Feels like <span class="feels-like">28</span></p>
+            <div class="line"></div>
+            <p>Sunset <span class="sunset-time">18:20</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="allTime-weather">
+        <div class="time-information">
+          <p class="now-time">Now</p>
+          <p class="two-time">2 AM</p>
+          <p class="three-time">3 AM</p>
+          <p class="four-time">4 AM</p>
+          <p class="five-time">5 AM</p>
+        </div>
+        <div class="temprature-weather">
+          <p>
+            <img
+              class="little-cloud"
+              src="./img/little-cloud.png"
+              alt=""
+            /><span class="now-degree">25</span
+            ><img class="round" src="./img/degree.png" alt="" />
+          </p>
+          <p>
+            <img class="little-cloud" src="./img/little-cloud.png" alt="" />
+            <span class="two-am">25</span>
+            <img class="round" src="./img/degree.png" alt="" />
+          </p>
+          <p>
+            <img class="little-cloud" src="./img/little-cloud.png" alt="" />
+            <span class="three-am">23</span
+            ><img class="round" src="./img/degree.png" alt="" />
+          </p>
+          <p>
+            <img
+              class="little-cloud"
+              src="./img/little-cloud.png"
+              alt=""
+            /><span class="four-am">22</span
+            ><img class="round" src="./img/degree.png" alt="" />
+          </p>
+          <p>
+            <img
+              class="little-cloud"
+              src="./img/little-cloud.png"
+              alt=""
+            /><span class="five-am">20</span><img class="round" src="./img/degree.png" alt="" />
+          </p>
+        </div>
+        <hr />
+        <div class="bottom-temprature">
+          <div class="afternoon-time">
+            <p class="six-time">6 AM</p>
+            <p class="seven-time">7 AM</p>
+            <p class="eight-time">8 AM</p>
+            <p class="nine-time">9 AM</p>
+            <p class="ten-time">10 AM</p>
+          </div>
+          <div class="afternoon-weather">
+            <p>
+              <img
+                class="little-cloud"
+                src="./img/little-cloud.png"
+                alt=""
+              /><span class="six-am">25</span
+              ><img class="round" src="./img/degree.png" alt="" />
+            </p>
+            <p>
+              <img
+                class="little-cloud"
+                src="./img/little-cloud.png"
+                alt=""
+              /><span class="seven-am">25</span
+              ><img class="round" src="./img/degree.png" alt="" />
+            </p>
+            <p>
+              <img
+                class="little-cloud"
+                src="./img/little-cloud.png"
+                alt=""
+              /><span class="eigth-am">23</span
+              ><img class="round" src="./img/degree.png" alt="" />
+            </p>
+            <p>
+              <img
+                class="little-cloud"
+                src="./img/little-cloud.png"
+                alt=""
+              /><span class="nine-am">22</span
+              ><img class="round" src="./img/degree.png" alt="" />
+            </p>
+            <p>
+              <img
+                class="little-cloud"
+                src="./img/little-cloud.png"
+                alt=""
+              /><span class="ten-am">20</span
+              ><img class="round" src="./img/degree.png" alt="" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

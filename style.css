@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 100%;
+  height: 160vh;
+  background-image: url("./img/IMG_7149.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search-country {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.search-country input {
+  border: 1px solid #91b4c6;
+  background-color: transparent;
+  width: 80%;
+  height: 10vh;
+  color: #fff;
+  padding-left: 20px;
+  font-size: 20px;
+}
+input::placeholder {
+  color: #fff;
+}
+.add-button {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 10vh;
+  background-color: #91b4c6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s;
+}
+.add-button:active{
+  box-shadow: none;
+}
+.top-weather {
+  width: 80%;
+  height: 60vh;
+  margin-inline: auto;
+  border-radius: 27.12px;
+  background: #91b4c6;
+  margin-top: 120px;
+}
+.degree-weather {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.degree-weather .cloud {
+  width: 73.611px;
+  height: 55.789px;
+
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+.degree-number {
+  color: #cad7df;
+  font-family: "Poppins", sans-serif;
+  font-size: 77.485px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+h1 .degree {
+  width: 11.623px;
+  height: 11.623px;
+  position: absolute;
+  top: 40px;
+}
+.bottom-weather {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.situation-weather {
+  color: #cad7df;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.country-city {
+  color: #cad7df;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.current-time {
+  color: #cad7df;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.information-time {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.information-time p {
+  color: #cad7df;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 20.623px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.information-time .line {
+  width: 4px;
+  height: 20px;
+  border-radius: 7.749px;
+  background: #cad7df;
+  margin-top: 4px;
+}
+.allTime-weather {
+  width: 80%;
+  height: 50vh;
+  margin-inline: auto;
+  border-radius: 27.12px;
+  background: #91b4c6;
+  margin-top: 20px;
+}
+.time-information {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.time-information p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.temprature-weather {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 160px;
+}
+.temprature-weather p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.little-cloud {
+  width: 20px;
+  height: 16px;
+  animation: moveUpDown 4s ease-in-out infinite;
+}
+.now-degree {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.round {
+  position: absolute;
+}
+hr {
+  width: 80%;
+  height: 0.775px;
+  border-radius: 7.749px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-inline: auto;
+  margin-top: 10px;
+}
+.bottom-temprature {
+  width: 100%;
+  height: 26vh;
+  margin-top: 10px;
+}
+.afternoon-time {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.afternoon-time p {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.afternoon-weather {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.afternoon-weather span {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
